@@ -1,0 +1,13 @@
+1: install required dependencies
+2: create server with express and connect to mongodb using mongoose
+3: add routes files by adding app.use() middleware
+4. create models 
+5. adding resistration route and check for email
+6. add bodyparser
+7. in registration route in users -> check user exists and if not then create a user,add gravatar and hash the password 
+   if everything went well then save to mlab .
+   
+
+// Login Redux Setup
+1.create a function in authActions and if login successful then
+set token in localStorage
